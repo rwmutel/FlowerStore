@@ -35,10 +35,6 @@
     <!-- =========================================================================== -->
 
     <module name="TreeWalker">
-        <module name="HiddenField" >
-            <property name="ignoreSetter" value="true" />
-            <property name="ignoreConstructorParameter" value="true" />
-        </module>
 
         <!-- =========================================================================== -->
         <!-- Check for annotations                                                       -->
@@ -89,6 +85,7 @@
         <module name="EmptyStatement"/>
         <!--        <module name="EqualsHashCode"/> -->
         <module name="HiddenField">
+            <property name="ignoreSetter" value="true" />
             <property name="ignoreConstructorParameter" value="true"/>
         </module>
         <module name="IllegalInstantiation"/>
