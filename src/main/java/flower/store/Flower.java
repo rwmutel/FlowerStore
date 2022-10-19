@@ -5,9 +5,9 @@ public class Flower {
     private int price;
     private int sepalLength;
 
-    public Flower() {}
+    public Flower() { }
 
-    public Flower(FlowerColor color, int price, int sepalLength){
+    public Flower(FlowerColor color, int price, int sepalLength) {
         this.color = color;
         this.price = price;
         this.sepalLength = sepalLength;

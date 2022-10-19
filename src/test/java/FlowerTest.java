@@ -1,5 +1,5 @@
-package flower.store;
-
+import flower.store.Flower;
+import flower.store.FlowerColor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
