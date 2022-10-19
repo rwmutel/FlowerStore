@@ -5,11 +5,6 @@
 
 
 <module name="Checker">
-    <module name="HiddenField" >
-        <property name="ignoreSetter" value="true" />
-        <property name="ignoreConstructorParameter" value="true" />
-    </module>
-
     <!-- Checks that property files contain the same keys. -->
     <module name="Translation"/>
 
@@ -40,6 +35,10 @@
     <!-- =========================================================================== -->
 
     <module name="TreeWalker">
+        <module name="HiddenField" >
+            <property name="ignoreSetter" value="true" />
+            <property name="ignoreConstructorParameter" value="true" />
+        </module>
 
         <!-- =========================================================================== -->
         <!-- Check for annotations                                                       -->
