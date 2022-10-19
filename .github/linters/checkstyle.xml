@@ -18,7 +18,6 @@
     <!-- Checks that no file is more than 1500 lines long. -->
     <module name="FileLength">
         <property name="max" value="1500"/>
-        <property name="ignoreSetters" value="true"/>
     </module>
 
     <!-- Check that length of line is at most 80 characters. -->
@@ -85,9 +84,6 @@
         <module name="EmptyStatement"/>
         <!--        <module name="EqualsHashCode"/> -->
         <module name="HiddenField">
-            <property name="ignoreSetter" value="true" />
-            <property name="ignoreConstructorParameter" value="true"/>
-        </module>
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
         <module name="MagicNumber">
@@ -300,7 +296,7 @@
 
         <module name="NeedBraces"/>
 
-
+        </module>
     </module>
 
 </module>
